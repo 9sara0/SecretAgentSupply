@@ -131,6 +131,10 @@ footer.flex-container {
 }
 
 @media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
   nav .flex-container {
     display: none;
   }
