@@ -95,3 +95,22 @@ nav .flex-container {
   color: white;
   padding: 0.5rem 0;
 }
+
+
+.info.flex-container {
+  justify-content: space-between;
+}
+
+.info {
+  margin: 3rem auto;
+}
+
+.element {
+  width: 35%;
+}
+
+.element h5 {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+}
