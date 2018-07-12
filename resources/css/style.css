@@ -69,6 +69,10 @@ nav .flex-container {
   justify-content: space-between;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .products.flex-container{
   justify-content: space-between;
 }
@@ -106,7 +110,7 @@ nav .flex-container {
 }
 
 .element {
-  width: 35%;
+  width: 30%;
 }
 
 .element h5 {
@@ -124,4 +128,27 @@ footer {
 
 footer.flex-container {
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav .flex-container {
+    display: none;
+  }
+
+  nav .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .element {
+    width: 30%;
+  }
 }
