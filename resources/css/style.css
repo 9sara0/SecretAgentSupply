@@ -114,3 +114,14 @@ nav .flex-container {
   background-color: black;
   padding: 1rem 2rem;
 }
+
+footer {
+  height: 5rem;
+  text-align: left;
+  color: white;
+  background-color: black;
+}
+
+footer.flex-container {
+  margin-top: 4rem;
+}
