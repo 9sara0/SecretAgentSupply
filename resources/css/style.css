@@ -131,8 +131,13 @@ footer.flex-container {
 }
 
 @media only screen and (max-width: 1024px) {
-  html {
-    font-size: 16px;
+
+  .headline h1 {
+    font-size: 1.5rem;
+  }
+
+  .headline h4 {
+    font-size: 0.85rem;
   }
 
   nav .flex-container {
@@ -155,4 +160,47 @@ footer.flex-container {
   .element {
     width: 30%;
   }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 16rem;
+  }
+
+  .headline {
+    top: 10rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem
+  }
+
+
+  .product {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .info.flex-container {
+    flex-direction: column;
+  }
+
+  .element {
+    width: 90%
+
+  }
+
+  footer span {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
